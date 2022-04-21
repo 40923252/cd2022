@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -139,108 +139,15 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">W2 << <a href='W2.html'>Previous</a> <a href='W2_student_page.html'>Next</a> >> W2_student_page<br /><h1>W2_grp_code</h1>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">data = open('D:/2b_2student.txt').readlines()
-#print(data)
-data = data[1:]
-for i in range(len(data)):
-    num_github = data[i]
-    num = num_github.split("\t")[0]
-    account = num_github.split("\t")[1].strip()
-    group_number = num_github.split("\t")[2].strip()
-    if account == '':
-        account = num
-    print("第" + group_number + "組" + num + "&lt;a href='https://github.com/" + str.strip(account) + "/cd2022' target=_blank'&gt;" + str(num) + "&lt;/a&gt;"
-    + "&lt;a href='https://github.com/" + str.strip(account) + "/cd2022bg" + str(group_number) + "&gt;"+ str(num) + "&lt;/a&gt;")</pre>
-<p><em><strong><span style="color: #ff0000;">此程式還未自動按組別排列，無採用線上抓取名單</span></strong></em></p>
-<p><em><span style="color: #ff0000;"></span></em><span style="color: #ff0000;"></span></p>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">data = open('D:/2b_2student.txt').read().split("\n")[1:-1]
-#print(data)
-big = []
-num_github = {}
-for i in data:
-    num, github_name, group_num = i.split("\t")
-    #print(num, github_name, group_num)
-    big.append([num, github_name, group_num])
-    if github_name != "":
-        num_github[num] = github_name
-    else:
-        num_github[num] = num
-#print(big)
-#print(num_github)
-big.sort(key = lambda x: x[2])
-#令big這個list中最外層的每個元素叫做x，然後將每個x指定一個比較值，這個值來自於自己那個x裡面index=2的這項作為比較標準。
-# 例如：['40923252', '40923252', 3]的key就是被指定為3，['40923240', '40923240', 2]的key就是被指定為2。
-#big此時已按照組別排序
-#print(big)
-ungrouped = []
-grouped = []
-for i in big:
-    if i[2] == "":
-        ungrouped.append(i[0])
-    else:
-        grouped.append([i[2], i[0]])
-#print(grouped)
-#print(ungrouped)
-d = {}
-#逐一檢視grouped數列
-for i in grouped:
-    if i[0] in d:
-        d[i[0]].extend(i[1:])
-        #print(i[0], d)
-    else:
-        d[i[0]] = i
-group_member = list(d.values())
-#print(group_member)
-import random
-
-random.shuffle(ungrouped)
-#print(ungrouped)
-#print(str(len(ungrouped)))
-grp = 1
-group = []
-for i in group_member:
-    #print("grp" + str(i[0]) + ": num, " + str(len(i[1:])))
-    if len(i[1:]) &lt; 8:
-        #print("can take " + str(8 - len(i[1:])) + "members")
-        #print("add" + str(ungrouped[:8-len(i[1:])]))
-        i.extend(list(ungrouped[:8-len(i[1:])]))
-        #print(i)
-        ungrouped = ungrouped[8-len(i[1:]):]
-    i[0] = str(grp)
-    group.append(i)
-    grp +=1
-#print(group)
-for i in range(len(group)):
-    num_github = group[i]
-    '''num_group = num_github[0]
-    #num_group是組別號碼
-    print("&lt;a herf='https://" + str.strip(num_group) + ".github.io/cad2021_hw' target=_blank'&gt;" + str(num) + "&lt;/a&gt;")'''
-    num_group = num_github[0]
-    print("第" + num_group + "組")
-    member = num_github[1]
-    print("&lt;a herf='https://" + str.strip(member) + "github.com/cd2022' target=_blank'&gt;" + str(member) + "&lt;/a&gt;")
-    member = num_github[2]
-    print("&lt;a herf='https://" + str.strip(member) + "github.com/cd2022' target=_blank'&gt;" + str(member) + "&lt;/a&gt;")
-    member = num_github[3]
-    print("&lt;a herf='https://" + str.strip(member) + "github.com/cd2022' target=_blank'&gt;" + str(member) + "&lt;/a&gt;")
-    member = num_github[4]
-    print("&lt;a herf='https://" + str.strip(member) + "github.com/cd2022' target=_blank'&gt;" + str(member) + "&lt;/a&gt;")
-    member = num_github[5]
-    print("&lt;a herf='https://" + str.strip(member) + "github.com/cd2022' target=_blank'&gt;" + str(member) + "&lt;/a&gt;")
-    member = num_github[6]
-    print("&lt;a herf='https://" + str.strip(member) + "github.com/cd2022' target=_blank'&gt;" + str(member) + "&lt;/a&gt;")
-    member = num_github[7]
-    print("&lt;a herf='https://" + str.strip(member) + "github.com/cd2022' target=_blank'&gt;" + str(member) + "&lt;/a&gt;")
-    member = num_github[8]
-    print("&lt;a herf='https://" + str.strip(member) + "github.com/cd2022' target=_blank'&gt;" + str(member) + "&lt;/a&gt;")
-    
-    #上行尚需修改
-    '''for i in num_github[1:]:
-        
-        print(num_github)'''</pre>
-<p><strong><em><span style="color: #ff0000;">此程式能按組別排列但print步驟尚過於繁瑣且有部分錯誤(學號有加額外字學員會出錯)，還未成功寫出迴圈，無採用線上抓取名單</span></em></strong></p>
-<br />W2 << <a href='W2.html'>Previous</a> <a href='W2_student_page.html'>Next</a> >> W2_student_page</div>
+    <div id="tipue_search_content">大組網頁同步方法 << <a href='大組網頁同步方法.html'>Previous</a> <br /><h1>midterm</h1>
+<p>查驗項目:</p>
+<p>1.uarm 各零件工程圖</p>
+<p>2.uarm 組合圖</p>
+<p>3.uarm 組合圖 STL 格式轉入 CoppeliaSim</p>
+<p>4.GUI slider 控制前三軸作動</p>
+<p>5.cmsimde 中第一階頁面, 標題為 midterm</p>
+<p>6.網誌名稱為 midterm.html</p>
+<p>7.流程與心得簡報</p><br />大組網頁同步方法 << <a href='大組網頁同步方法.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
