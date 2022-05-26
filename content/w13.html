@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H1">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -128,7 +128,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='Work schedule.html'>Work schedule</a><li class='has-children'><a href='w2.html'>w2</a><ul class='dropdown'><li><a href='w2_grp_code.html'>w2_grp_code</a><li><a href='w2_student_page.html'>w2_student_page</a><li><a href='w2_student_page_code.html'>w2_student_page_code</a></li></ul><li><a href='w3.html'>w3</a><li><a href='w6.html'>w6</a><li><a href='w7.html'>w7</a><li><a href='w8.html'>w8</a><li class='has-children'><a href='w10.html'>w10</a><ul class='dropdown'><li><a href='w10_block_ui.html'>w10_block_ui</a><li><a href='w10_nx_integ.html'>w10_nx_integ</a><li><a href='w10_ssh.html'>w10_ssh</a></li></ul><li><a href='w11.html'>w11</a><li><a href='w12.html'>w12</a><li class='has-children'><a href='w13.html'>w13</a><ul class='dropdown'><li><a href='online.html'>online</a></li></ul><li><a href='大組網頁同步方法.html'>大組網頁同步方法</a><li><a href='midterm.html'>midterm</a></li>
+                     <li><a href='About.html'>About</a><li><a href='Work schedule.html'>Work schedule</a><li class='has-children'><a href='w2.html'>w2</a><ul class='dropdown'><li><a href='w2_grp_code.html'>w2_grp_code</a><li><a href='w2_student_page.html'>w2_student_page</a><li><a href='w2_student_page_code.html'>w2_student_page_code</a></li></ul><li><a href='w3.html'>w3</a><li><a href='w6.html'>w6</a><li><a href='w7.html'>w7</a><li><a href='w8.html'>w8</a><li class='has-children'><a href='w10.html'>w10</a><ul class='dropdown'><li><a href='w10_block_ui.html'>w10_block_ui</a><li><a href='w10_nx_integ.html'>w10_nx_integ</a><li><a href='w10_ssh.html'>w10_ssh</a></li></ul><li><a href='w11.html'>w11</a><li><a href='w12.html'>w12</a><li class='has-children'><a href='online.html'>online</a><ul class='dropdown'><li><a href='w13.html'>w13</a><li><a href='w14.html'>w14</a></li></ul><li><a href='大組網頁同步方法.html'>大組網頁同步方法</a><li><a href='midterm.html'>midterm</a></li>
                       </ul>
                 </nav>
               </div>
@@ -139,11 +139,64 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">w12 << <a href='w12.html'>Previous</a> <a href='online.html'>Next</a> >> online<br /><h1>w13</h1>
-<p>因遠距教學因此採用線上同步上課</p>
-<p>線上同步教學系統:</p>
-<p><a href="https://teams.microsoft.com/">https://teams.microsoft.com</a><span> (利用 @gm<span> </span></span><a href="https://mde.tw/wcm2022_guide/content/OneDrive.html">註冊帳號</a><span>後, 每週透過 Team code 進入 channel 上課)(team code: bp9x4jy)</span></p>
-<br />w12 << <a href='w12.html'>Previous</a> <a href='online.html'>Next</a> >> online</div>
+    <div id="tipue_search_content">online << <a href='online.html'>Previous</a> <a href='w14.html'>Next</a> >> w14<br /><h1>w13</h1>
+<p>利用Brython執行下列程式並讀取出有完成之學員</p>
+<p>程式檔位置:<a href="https://gist.githubusercontent.com/mdecourse/e00a3b68d4defee1987d18cc998b377a/raw/76f525f56ce4def0316d4b46af8e9100f91c21c8/check_cd2022_page.py">check</a></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import html
+from browser import document
+
+brython_div = document["brython_div"]
+
+# 根據 href 與 content 將 html 元件中的 anchor 插入頁面
+def makeLink(href, content):
+    brython_div &lt;= html.A(content, href=href)
+    brython_div &lt;= html.BR()
+
+# 將 2b 學號、帳號與組別的網址設為 studlist_url
+# 讀取2b學員名單
+aorb = "2b"
+# 檢查內容為page_title變數之變數值
+# 檢查的變數值不分h1,h2,h3
+page_title = "online"
+studlist_url = "https://mde.tw/studlist/2022spring/" + aorb + ".txt"
+# 利用 open() 與 read() 讀出資料
+data = open(studlist_url).read()
+# 若要 debug 可以查驗所取得的 data 內容
+#print(data)
+# 利用 split() 函式, 使用每一行的跳行符號\n切割所讀回的資料
+# 切割後的 stud 為數列 (list)
+stud = data.split("\n")
+# 列出去頭(標題)與去尾(空白行)的數列查驗
+#print(stud[1:-1])
+count = 0
+# blog name w6_studno.html
+member = []
+# 利用 for 迴圈逐一取出數列中的元素(每位學員的資料)
+for i in stud[1:-1]:
+    #print(i)
+    studno, github, grp = i.split("\t")
+    #print(studno, github, grp)
+    #print(type(grp))
+    stud_url = "https://" + github + ".github.io/cd2022/content/" + page_title + ".html"
+    url_title = studno + " " + page_title
+    try:
+        blog_content = open(stud_url).read()
+        makeLink(stud_url, url_title)
+    except:
+        #print(studno + " 尚無 w6 blog!")
+        pass
+    #makeLink(stud_url, url_title)
+    # 因為有人沒有組別或沒有登記 github 帳號
+    if grp != "" and github != "":
+        if grp == "1":
+            #print(studno)
+            count += 1
+    else:
+        print("尚未分組者:", studno)
+        
+print("done")</pre>
+<pre><br/><br/></pre>
+<br />online << <a href='online.html'>Previous</a> <a href='w14.html'>Next</a> >> w14</div>
         
     <!-- footer -->
       <div class="container">
