@@ -638,17 +638,21 @@ print("done")</pre>
 <h2>w14</h2>
 <h1>大組網頁同步方法</h1>
 <p>方法一:</p>
-<p>1.黑窗先進入本地倉儲 <span style="color: #ff0000;">ex:cd tmp/cd2022bg3</span></p>
+<p>1.黑窗(cmd)先進入本地倉儲 <span style="color: #ff0000;">ex:cd tmp/cd2022bg3</span></p>
 <p>2.查看遠端倉儲路徑 <strong>git remote -v </strong><strong></strong>如未設定過<strong>upstream</strong>只會跑出兩行</p>
-<p>3.<strong>git remote add upstream https://github.com/409232xx/cd2022bgx.git</strong>把409232xx的cd2022bgx倉儲設置為自己的upstream，執行此指令後無返回任何訊息，再次執行指令 <strong>git remote -v </strong>檢查是否成功。</p>
+<p>3.<strong>git remote add upstream https://github.com/40923252/cd2022bg3.git</strong>把40923252的cd2022bg3倉儲設置為自己的upstream，執行此指令後無返回任何訊息，再次執行指令 <strong>git remote -v </strong>檢查是否成功。</p>
 <p>4.<strong>git status</strong> 檢查本地已沒有未提交之修改</p>
-<p>5.<strong>git fetch upstream</strong> 抓取409232xx倉儲更新</p>
+<p>5.<strong>git fetch upstream</strong> 抓取40923252倉儲更新</p>
 <p>6.<strong>git checkout main</strong> 切換至main分支</p>
 <p>7.<strong>git merge upstream/main</strong> 合併遠程main分支</p>
-<p>8.<strong>git push</strong> 將本地倉儲推送至fork409232xx後自己名下之倉儲</p>
+<p>8.<strong>git push</strong> 將本地倉儲推送至fork40923252後自己名下之倉儲</p>
 <p>方法二:</p>
-<p>老師講解之方法尚未使用，使用後將會更新</p>
-<h1>midterm</h1>
+<p>1.先fork大組倉儲到自己帳號下</p>
+<p>2.fork完後到自己帳號下的大組倉儲 <strong>Settings</strong><span>⇒<strong>pages</strong> 建立網頁</span></p>
+<p>3.各組大組倉儲去 <strong>Settings</strong>⇒<strong>Collaborators</strong>⇒<strong>Manage access</strong>⇒<strong>add people</strong> 加入自己的組員，讓組員有推送權限</p>
+<p>4.黑窗(cmd)打指令抓取大組倉儲 <strong>git pull --recurse-submodules git@<span style="color: #ff0000;">github.com</span>:40923252/cd2022b3.git </strong>紅字部分有關於推送時的權限</p>
+<p>5.更改大組網頁內容後 <strong>acp ""</strong> 更新大組網頁</p>
+<p>6.自己帳號下的大組倉儲利用逆向 Pull requests 使自己帳號下的大組倉儲和大組倉儲網頁同步。 <strong>Pull requests</strong>⇒<strong>New pull request </strong>進到此頁面後上方的網址兩個帳號名字互換後直接<em>Enter</em>再按 <strong>Create pull request</strong>⇒<strong>Create pull request</strong>⇒<strong>Merge pull request</strong>⇒<strong>Confirm merge</strong></p><h1>midterm</h1>
 <p>分配之軟體:SolveSpace</p>
 <p>查驗項目:</p>
 <p>1.uarm 各零件工程圖</p>
