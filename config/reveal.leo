@@ -34,10 +34,7 @@
 <v t="leo.20220314203825.19"><vh>slide 10</vh></v>
 <v t="leo.20220314203825.20"><vh>slide 11</vh></v>
 <v t="leo.20220314203825.21"><vh>slide 12</vh></v>
-<v t="leo.20220314203825.22"><vh>slide 13</vh>
-<v t="leo.20220314203825.23"><vh>slide 13-1</vh></v>
-<v t="leo.20220314203825.24"><vh>slide 13-2</vh></v>
-</v>
+<v t="leo.20220314203825.22"><vh>slide 13</vh></v>
 <v t="leo.20220314203825.25"><vh>slide 14</vh></v>
 <v t="leo.20220314203825.26"><vh>slide 15</vh></v>
 <v t="leo.20220314203825.27"><vh>slide 16</vh>
@@ -200,45 +197,34 @@ vertical: body pane on the botton</t>
 
 </t>
 <t tx="leo.20220314203825.16">&lt;section&gt;
-    &lt;h2&gt;Point of View&lt;/h2&gt;
+    &lt;h2&gt;W8&lt;/h2&gt;
     &lt;p&gt;
-        Press &lt;strong&gt;ESC&lt;/strong&gt; to enter the slide overview.
-    &lt;/p&gt;
-    &lt;p&gt;
-        Hold down the &lt;strong&gt;alt&lt;/strong&gt; key (&lt;strong&gt;ctrl&lt;/strong&gt; in Linux) and click on any element to zoom towards it using &lt;a href="http://lab.hakim.se/zoom-js"&gt;zoom.js&lt;/a&gt;. Click again to zoom back out.
-    &lt;/p&gt;
-    &lt;p&gt;
-        (NOTE: Use ctrl + click in Linux.)
+        利用三種不同的繪圖程式繪製uarm並在網誌加上流程與心得，分配到軟體為solvespace &lt;a href="https://40923252.github.io/cd2022/content/w8.html"&gt;w8&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.17">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
-    &lt;h2&gt;Auto-Animate&lt;/h2&gt;
-    &lt;p&gt;Automatically animate matching elements across slides with &lt;a href="https://revealjs.com/auto-animate/"&gt;Auto-Animate&lt;/a&gt;.&lt;/p&gt;
-    &lt;div class="r-hstack justify-center"&gt;
-        &lt;div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
+<t tx="leo.20220314203825.17">&lt;section&gt;
+    &lt;h2&gt;W10&lt;/h2&gt;
+    &lt;p&gt;
+        將老師的三個影片加入註解說明，分別以&lt;a href="https://40923252.github.io/cd2022/content/w10_block_ui.html"&gt; w10_block_ui &lt;/a&gt;、&lt;a href="https://40923252.github.io/cd2022/content/w10_nx_integ.html"&gt; w10_nx_integ &lt;/a&gt;和&lt;a href="https://40923252.github.io/cd2022/content/w10_ssh.html"&gt; w10_ssh &lt;/a&gt; 作為標題並將說明影片放入個人cd2022網站頁面及&lt;a href="https://40923252.github.io/cd2022/blog/w10.html"&gt; blog網誌&lt;/a&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20220314203825.18">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
-    &lt;div class="r-hstack justify-center"&gt;
-        &lt;div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;h2 style="margin-top: 20px;"&gt;Auto-Animate&lt;/h2&gt;
+<t tx="leo.20220314203825.18">&lt;section&gt;
+    &lt;h2&gt;W11&lt;/h2&gt;
+    &lt;p&gt;
+        組員兩人一小組，在組長帳號下的分組倉儲中的同一網頁 (標題為 w11s1 ~w11s4) 加入個人 w8-w10 協同設計過程所負責的項目內容與心得及解決可能產生的衝突 &lt;a href="&lt;a href="https://40923252.github.io/cd2022bg3/content/w11s2.html" target="_blank"&gt; bg3w11-2 &lt;/a&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20220314203825.19">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
-    &lt;div class="r-stack"&gt;
-        &lt;div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;h2 style="margin-top: 20px;"&gt;Auto-Animate&lt;/h2&gt;
+<t tx="leo.20220314203825.19">&lt;section&gt;
+    &lt;h2&gt;W12&lt;/h2&gt;
+    &lt;p&gt;
+        下載老師的程式碼計算出 uarm 不計入重複引用的零件總數及名稱&lt;a href="https://40923252.github.io/cd2022/content/w12.html"&gt;W12&lt;/a&gt;.
+        &lt;small&gt;程式碼下載處&lt;a href="https://github.com/mdecycu/cd2022_guide/blob/main/downloads/cd2022_uarm/get_part_list_from_assembly4.py" target="_blank"&gt;mdecycu&lt;/a&gt;&lt;/small&gt;
+        &lt;small&gt;匯出檔案&lt;a href="https://drive.google.com/file/d/1cqw7lwVOTYuRracVkKNQOSFLFJcb_Us3/view" target="_blank"&gt;txt&lt;/a&gt;&lt;/small&gt;
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
@@ -247,74 +233,35 @@ vertical: body pane on the botton</t>
 @others
 &lt;/html&gt;</t>
 <t tx="leo.20220314203825.20">&lt;section&gt;
-    &lt;h2&gt;Touch Optimized&lt;/h2&gt;
+    &lt;h2&gt;W13&lt;/h2&gt;
     &lt;p&gt;
-        Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+        理解如何利用Brython確認學員有無完成該週網頁及部分uarm零件工程圖 &lt;a href="&lt;a href="https://40923252.github.io/cd2022/content/w13.html"&gt; W13 &lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.21">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-        ## Markdown support
-
-        Write content using inline or external Markdown.
-        Instructions and more info available in the [readme](https://revealjs.com/markdown/).
-
-        ```[]
-        &lt;section data-markdown&gt;
-          ## Markdown support
-
-          Write content using inline or external Markdown.
-          Instructions and more info available in the [readme](https://revealjs.com/markdown/).
-        &lt;/section&gt;
-        ```
-    &lt;/script&gt;
+<t tx="leo.20220314203825.21">&lt;section&gt;
+    &lt;h2&gt;W14&lt;/h2&gt;
+    &lt;p&gt;
+        繪製零件並組裝完成後匯入CoppeliaSim利用Python編寫MTB robot機械手臂的控制程式.&lt;small&gt;&lt;a href="https://40923252.github.io/cd2022/content/w14.html"&gt; W14 &lt;/a&gt;&lt;/small&gt;
+        繪製完零件檔案連結&lt;small&gt;&lt;a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923252_gm_nfu_edu_tw/EuRizdlCQHJKt4D86KSVNfwBvkkgs-uJhbrt-6Mzot4DAA?e=EBAck3"&gt; MTB robot &lt;/a&gt;&lt;/small&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
 <t tx="leo.20220314203825.22">&lt;section&gt;
-     @others
+    &lt;h2&gt;W15&lt;/h2&gt;
+    &lt;p&gt;
+        試著將零件利用NX組立uarm機械手臂並在CoppeliaSim完成利用鍵盤動態模擬.&lt;small&gt;&lt;a href="https://40923252.github.io/cd2022/content/w15.html"&gt; W15 &lt;/a&gt;&lt;/small&gt;
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.23">&lt;section id="fragments"&gt;
-    &lt;h2&gt;Fragments&lt;/h2&gt;
-    &lt;p&gt;Hit the next arrow...&lt;/p&gt;
-    &lt;p class="fragment"&gt;... to step through ...&lt;/p&gt;
-    &lt;p&gt;&lt;span class="fragment"&gt;... a&lt;/span&gt; &lt;span class="fragment"&gt;fragmented&lt;/span&gt; &lt;span class="fragment"&gt;slide.&lt;/span&gt;&lt;/p&gt;
-
-    &lt;aside class="notes"&gt;
-        This slide has fragments which are also stepped through in the notes window.
-    &lt;/aside&gt;
-&lt;/section&gt;
- </t>
-<t tx="leo.20220314203825.24">&lt;section&gt;
-    &lt;h2&gt;Fragment Styles&lt;/h2&gt;
-    &lt;p&gt;There's different types of fragments, like:&lt;/p&gt;
-    &lt;p class="fragment grow"&gt;grow&lt;/p&gt;
-    &lt;p class="fragment shrink"&gt;shrink&lt;/p&gt;
-    &lt;p class="fragment fade-out"&gt;fade-out&lt;/p&gt;
+<t tx="leo.20220314203825.25">&lt;section&gt;
+    &lt;h2&gt;W16&lt;/h2&gt;
     &lt;p&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-right"&gt;fade-right, &lt;/span&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-up"&gt;up, &lt;/span&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-down"&gt;down, &lt;/span&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-left"&gt;left&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p class="fragment fade-in-then-out"&gt;fade-in-then-out&lt;/p&gt;
-    &lt;p class="fragment fade-in-then-semi-out"&gt;fade-in-then-semi-out&lt;/p&gt;
-    &lt;p&gt;Highlight &lt;span class="fragment highlight-red"&gt;red&lt;/span&gt; &lt;span class="fragment highlight-blue"&gt;blue&lt;/span&gt; &lt;span class="fragment highlight-green"&gt;green&lt;/span&gt;&lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20220314203825.25">&lt;section id="transitions"&gt;
-    &lt;h2&gt;Transition Styles&lt;/h2&gt;
-    &lt;p&gt;
-        You can select from different transitions, like: &lt;br&gt;
-        &lt;a href="?transition=none#/transitions"&gt;None&lt;/a&gt; -
-        &lt;a href="?transition=fade#/transitions"&gt;Fade&lt;/a&gt; -
-        &lt;a href="?transition=slide#/transitions"&gt;Slide&lt;/a&gt; -
-        &lt;a href="?transition=convex#/transitions"&gt;Convex&lt;/a&gt; -
-        &lt;a href="?transition=concave#/transitions"&gt;Concave&lt;/a&gt; -
-        &lt;a href="?transition=zoom#/transitions"&gt;Zoom&lt;/a&gt;
+        根據老師題目要求組別內討論如何完成Online Exam 問題.&lt;small&gt;&lt;a href="https://40923252.github.io/cd2022/content/w16.html"&gt; W16 &lt;/a&gt;&lt;/small&gt;
+        檔案位置Onedrive&lt;a href="&lt;a href="https://gmnfuedutw-my.sharepoint.com/personal/40923252_gm_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F40923252%5Fgm%5Fnfu%5Fedu%5Ftw%2FDocuments%2Fw16%20online%20exam&amp;ga=1"&gt; Online Exam &lt;/a&gt;
     &lt;/p&gt;
 &lt;/section&gt;
 
