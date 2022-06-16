@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>cd2022協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-06-17T01:26:31+08:00</updated><entry><title>2022 Spring CD 課程 W11</title><link href="./w11.html" rel="alternate"></link><published>2022-05-05T16:30:00+08:00</published><updated>2022-06-17T01:26:31+08:00</updated><author><name>40923252</name></author><id>tag:None,2022-05-05:./w11.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>cd2022協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-06-17T01:48:27+08:00</updated><entry><title>2022 Spring CD 課程 W11</title><link href="./w15.html" rel="alternate"></link><published>2022-06-02T16:30:00+08:00</published><updated>2022-06-17T01:48:27+08:00</updated><author><name>40923252</name></author><id>tag:None,2022-06-02:./w15.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+
+
+&lt;h2&gt;W15&lt;/h2&gt;
+&lt;p&gt;試著將零件利用NX組立uarm機械手臂，並在CoppeliaSim理解程式碼後利用鍵盤進行動態模擬。&lt;/p&gt;
+&lt;p&gt;動態模擬&lt;/p&gt;
+&lt;script&gt;
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+&lt;/script&gt;
+&lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008"&gt;
+&lt;source src="https://40923252.github.io/cd2022/downloads/uarm.mp4" type="video/mp4"/&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;鍵盤控制&lt;/p&gt;
+&lt;p&gt;K L 鍵控制底盤順逆時鐘旋轉&lt;/p&gt;
+&lt;p&gt;H J 鍵控制joint01順逆時鐘旋轉&lt;/p&gt;
+&lt;p&gt;F G 鍵控制joint02順逆時鐘旋轉&lt;/p&gt;
+&lt;p&gt;P 鍵吸起方塊&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>2022 Spring CD 課程 W11</title><link href="./w14.html" rel="alternate"></link><published>2022-05-26T16:30:00+08:00</published><updated>2022-06-17T01:48:27+08:00</updated><author><name>40923252</name></author><id>tag:None,2022-05-26:./w14.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+
+
+&lt;h2&gt;W14&lt;/h2&gt;
+&lt;p&gt;使用NX12繪製MTB robot零件及完成組裝，並匯入CoppeliaSim模擬取放場景。&lt;/p&gt;
+&lt;p&gt;零件檔及組合圖檔案位置&lt;a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923252_gm_nfu_edu_tw/EuRizdlCQHJKt4D86KSVNfwBvkkgs-uJhbrt-6Mzot4DAA?e=e7r7oa"&gt;OneDrive&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>2022 Spring CD 課程 W11</title><link href="./w11.html" rel="alternate"></link><published>2022-05-05T16:30:00+08:00</published><updated>2022-06-17T01:26:31+08:00</updated><author><name>40923252</name></author><id>tag:None,2022-05-05:./w11.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 
 
