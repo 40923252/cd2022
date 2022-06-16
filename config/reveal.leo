@@ -153,9 +153,9 @@ vertical: body pane on the botton</t>
 @tabwidth -4
 @others</t>
 <t tx="leo.20220314203825.10">&lt;section&gt;
-    &lt;h2&gt;Vertical Slides&lt;/h2&gt;
-    &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
-    &lt;p&gt;Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.&lt;/p&gt;
+    &lt;h2&gt;W2&lt;/h2&gt;
+    &lt;p&gt;將各組及組員倉儲及網頁連結列出&lt;/p&gt;
+    &lt;p&gt;以下為 &lt;em&gt;學員&lt;/em&gt; 倉儲頁面.&lt;a href="https://40923252.github.io/cd2022/content/w2.html"&gt;student_repo&lt;/a&gt;&lt;/p&gt;
     &lt;br&gt;
     &lt;a href="#" class="navigate-down"&gt;
         &lt;img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow"&gt;
@@ -163,74 +163,39 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 </t>
 <t tx="leo.20220314203825.11">&lt;section&gt;
-    &lt;h2&gt;Basement Level 1&lt;/h2&gt;
-    &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
+    &lt;h2&gt;學員網頁頁面&lt;/h2&gt;
+    &lt;p&gt;以下為 &lt;em&gt;學員&lt;/em&gt; 網頁頁面.&lt;a href="https://40923252.github.io/cd2022/content/w2_student_page.html"&gt;student_page&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20220314203825.12">&lt;section&gt;
-    &lt;h2&gt;Basement Level 2&lt;/h2&gt;
-    &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
+    &lt;h2&gt;程式碼&lt;/h2&gt;
+    &lt;p&gt;以下為 &lt;em&gt;程式碼&lt;/em&gt; 頁面僅供參考.&lt;a href="https://40923252.github.io/cd2022/content/w2_grp_code.html"&gt;student_repo_code&lt;/a&gt;和&lt;a href="https://40923252.github.io/cd2022/content/w2_student_page_code.html"&gt;student_page_code&lt;/a&gt;&lt;/p&gt;
     &lt;br&gt;
     &lt;a href="#/2"&gt;
         &lt;img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow"&gt;
     &lt;/a&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.13">&lt;section&gt;
-    &lt;h2&gt;Slides&lt;/h2&gt;
+    &lt;h2&gt;W3&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        利用NX1980繪製38個比較接近NX1980版本功能的教學影片，分配到影片為16~20 &lt;a href="https://40923252.github.io/cd2022/content/w3.html"&gt;w3&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.14">&lt;section data-auto-animate&gt;
-    &lt;h2 data-id="code-title"&gt;Pretty Code&lt;/h2&gt;
-    &lt;pre data-id="code-animation"&gt;&lt;code class="hljs" data-trim data-line-numbers&gt;
-        import React, { useState } from 'react';
-
-        function Example() {
-          const [count, setCount] = useState(0);
-
-          return (
-            ...
-          );
-        }
-    &lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;Code syntax highlighting courtesy of &lt;a href="https://highlightjs.org/usage/"&gt;highlight.js&lt;/a&gt;.&lt;/p&gt;
+<t tx="leo.20220314203825.14">&lt;section&gt;
+    &lt;h2&gt;W6&lt;/h2&gt;
+    &lt;p&gt;
+        學習利用 Leo Editor 編輯網誌檔案，並在Slug打上w6_學號 讓程式有辦法讀取頁面 &lt;a href="https://40923252.github.io/cd2022/blog/w6_40923252.html"&gt;w6_blog&lt;/a&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.15">&lt;section data-auto-animate&gt;
-    &lt;h2 data-id="code-title"&gt;With animations&lt;/h2&gt;
-    &lt;pre data-id="code-animation"&gt;&lt;code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"&gt;
-        import React, { useState } from 'react';
-
-        function Example() {
-          const [count, setCount] = useState(0);
-
-          return (
-            &amp;lt;div&amp;gt;
-              &amp;lt;p&amp;gt;You clicked {count} times&amp;lt;/p&amp;gt;
-              &amp;lt;button onClick={() =&amp;gt; setCount(count + 1)}&amp;gt;
-                Click me
-              &amp;lt;/button&amp;gt;
-            &amp;lt;/div&amp;gt;
-          );
-        }
-
-        function SecondExample() {
-          const [count, setCount] = useState(0);
-
-          return (
-            &amp;lt;div&amp;gt;
-              &amp;lt;p&amp;gt;You clicked {count} times&amp;lt;/p&amp;gt;
-              &amp;lt;button onClick={() =&amp;gt; setCount(count + 1)}&amp;gt;
-                Click me
-              &amp;lt;/button&amp;gt;
-            &amp;lt;/div&amp;gt;
-          );
-        }
-    &lt;/code&gt;&lt;/pre&gt;
+<t tx="leo.20220314203825.15">&lt;section&gt;
+    &lt;h2&gt;W7&lt;/h2&gt;
+    &lt;p&gt;
+        利用 Leo Editor 編輯網誌檔案，並在Slug打上w7_summary 讓程式有辦法讀取頁面，並在網誌上加組員分配到的軟體 &lt;a href="https://40923252.github.io/cd2022/blog/w7_summary.html"&gt;w7_blog&lt;/a&gt;.
+    &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
@@ -635,9 +600,9 @@ console.log( '"customevent" has fired' );
 
 </t>
 <t tx="leo.20220314203825.8">&lt;section&gt;
-    &lt;h2&gt;Hello There&lt;/h2&gt;
+    &lt;h2&gt;W1&lt;/h2&gt;
     &lt;p&gt;
-        reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+        創建倉儲及介紹本學期課程 &lt;a href="https://github.com/40923252/cd2022"&gt;cd2022repo&lt;/a&gt;
     &lt;/p&gt;
 &lt;/section&gt;
 
