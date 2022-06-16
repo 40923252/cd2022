@@ -560,7 +560,8 @@ var winkVideoData = {
 <div class="winkVideoControlBarProgressThumbClass"></div>
 </div>
 <div class="winkVideoPlayOverlayClass"></div>
-</div><h1>w11</h1>
+</div>
+<h1>w11</h1>
 <p><em><strong>w11-1 任務:</strong></em></p>
 <p>請各組組員在第一節課堂時段, 以每兩人一小組的方式, 在組長帳號下的分組倉儲中的同一網頁 (標題為 w11s1 ~w11s4) 加入個人 w8-w10 協同設計過程所負責的項目內容與心得. 過程中請參考下列 Wink 影片解決可能產生的衝突, 最後並將 git pull 至 acp 的操作過程, 建立 Wink 影片後, 以組員為單位嵌入個人負責的協同網頁中.</p>
 <p><em><strong>學習要點:</strong></em></p>
@@ -870,7 +871,8 @@ table.insert(boolList,false)
 end
 end
 -- See the user manual or the available code snippets for additional callback functions and details</pre>
-<p><br/><br/></p><h2>w16</h2>
+<p><br/><br/></p>
+<h2>w16</h2>
 <p>Online Exam</p>
 <p>Onedrive檔案:<a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923252_gm_nfu_edu_tw/Em13BjSN3aRHvnKWapJS-JYBrRmufs4VmhvZNYT3YIuIaQ?e=eEo6it">Online Exam</a></p>
 <p><img caption="false" height="430" src="/images/0.png" width="764"/></p>
@@ -883,7 +885,8 @@ end
 <p>先算出 joint1 需要轉動多少度才可再綠色底座的 uArm 機械手臂與紅色方塊構成的直線上。</p>
 <p>可利用三角形的餘弦定理公式，從上視將綠色底座、紅色方塊、吸盤這三點構成一個三角形。然後利用點到點算出a、b、c 再使用公式可求出角度，而後再更改程式中轉一次的值，可以對到綠色底座的 uArm 機械<br/>手臂與紅色方塊構成的直線上。</p>
 <p>但吸盤還未到達紅色方塊頂端中心，目前尚在想方法完成。但有試著利用手動 的方式將吸盤到達紅色方塊頂端中心。</p>
-<p><span>可查看上述連結之檔案 </span><span style="color: #ff0000;">w16 bg3 online exam 2.pdf </span><span>檔案</span></p><h1>大組網頁同步方法</h1>
+<p><span>可查看上述連結之檔案 </span><span style="color: #ff0000;">w16 bg3 online exam 2.pdf </span><span>檔案</span></p>
+<h1>大組網頁同步方法</h1>
 <p>方法一:</p>
 <p>1.黑窗(cmd)先進入本地倉儲 <span style="color: #ff0000;">ex:cd tmp/cd2022bg3</span></p>
 <p>2.查看遠端倉儲路徑 <strong>git remote -v </strong><strong></strong>如未設定過<strong>upstream</strong>只會跑出兩行</p>
@@ -937,3 +940,10 @@ var winkVideoData = {
 <p>6.網誌名稱為 midterm.html</p>
 <p>網址：<a href="https://40923252.github.io/cd2022/blog/midterm.html">https://40923252.github.io/cd2022/blog/midterm.html</a></p>
 <p>7.流程與心得簡報</p>
+<h1>遇到問題與解決</h1>
+<p>當有人因為後面推送時出現難以修改的錯誤，想回之前編輯的版本。</p>
+<p>1.黑窗進入目錄 <span style="color: #ff0000;">ex:cd tmp/cd2022</span></p>
+<p><span style="color: #000000;">2.指令 <strong>git log</strong> 可查看現在的版本號</span></p>
+<p><span style="color: #000000;">3.指令 <strong>git reset --hard</strong> <strong>要回到的版本號 </strong><span style="color: #ff0000;">ex:git reset --hard 90c2d3c</span></span></p>
+<p>4.再次執行指令 <strong>git log</strong> <span>查看現在的版本號</span></p>
+<p><span>5.指令 <strong>git push -f</strong> 強制推送</span></p>
