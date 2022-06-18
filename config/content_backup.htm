@@ -967,7 +967,30 @@ var winkVideoData = {
 <p>網址：<a href="https://40923252.github.io/cd2022/blog/midterm.html">https://40923252.github.io/cd2022/blog/midterm.html</a></p>
 <p>7.流程與心得簡報</p>
 <h1>Tic-Tae-Toe</h1>
-<h1>遇到問題與解決</h1>
+<p>執行取放 O、X wink</p>
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008">
+<source src="./../downloads/Tic-Tae-Toe.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div><h1>遇到問題與解決</h1>
 <p>當有人因為後面推送時出現難以修改的錯誤，想回之前編輯的版本。</p>
 <p>1.黑窗進入目錄 <span style="color: #ff0000;">ex:cd tmp/cd2022</span></p>
 <p><span style="color: #000000;">2.指令 <strong>git log</strong> 可查看現在的版本號</span></p>
