@@ -964,7 +964,36 @@ var winkVideoData = {
 <div class="winkVideoPlayOverlayClass"></div>
 </div>
 <p>利用老師所給<a href="https://github.com/mdecycu/cd2022_guide/tree/main/downloads/w8_midterm/w8_uarm_nx12/uarm_robot_nx12">連結</a>裡的零件使用 nx12 修改 "<strong>nx12絞鍊</strong>"與 "<strong>front joint</strong>" 零件的外型</p>
-<p><strong>心得:</strong>使用NX12來繪製修改零件，運用老師零件檔的草圖進行修改，在修改nx12絞鍊時，因為是左右相反，所以邊看老師所給的草圖邊自行重新繪製一個。</p><h1>大組網頁同步方法</h1>
+<p><strong>心得:</strong>使用NX12來繪製修改零件，運用老師零件檔的草圖進行修改，在修改nx12絞鍊時，因為是左右相反，所以邊看老師所給的草圖邊自行重新繪製一個。</p>
+<p>uarm作動影片</p>
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008">
+<source src="./../downloads/new uarm.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>4.測試題目 3. 的 <strong>XML UI slider</strong> 控制功能</p>
+<p><a href="https://youtu.be/EH6xfPyyWbk">https://youtu.be/EH6xfPyyWbk</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/EH6xfPyyWbk" width="560"></iframe></p>
+<p>5.uArm 機械手臂場景中, 加入 <strong>suctionPad</strong> 零件, 以手動操控或程式操控的方式, 錄製 <strong>block</strong> 方塊零件的取放模擬影片</p>
+<p></p><h1>大組網頁同步方法</h1>
 <p>方法一:</p>
 <p>1.黑窗(cmd)先進入本地倉儲 <span style="color: #ff0000;">ex:cd tmp/cd2022bg3</span></p>
 <p>2.查看遠端倉儲路徑 <strong>git remote -v </strong><strong></strong>如未設定過<strong>upstream</strong>只會跑出兩行</p>
